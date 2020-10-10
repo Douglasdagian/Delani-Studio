@@ -26,9 +26,19 @@ h1 p{
     font-size: 20px;
 }
 .portfolio{
-    padding:80px;
+    /* text-align: center; */
+    padding: 50px;
+    margin: 2px;
+    justify-content: space-between;
 }
-.contact us{
+.contact-us{
     background-image: url(../assets/backgrounds/c_image.jpg);
     text-align: center;
+}
+.container{
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    padding-top: 2px;
+    box-sizing: border-box;
 }
