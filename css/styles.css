@@ -1,3 +1,33 @@
 body{
     text-align: center;
 }
+#landing{
+    background-image: url(../assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding-top: 200px;
+}
+h1 p{
+    position: absolute;
+    bottom: 90%;
+    left: 50%;
+    font-size: 10px;
+}
+.douglas{
+    text-align: center;
+}
+.services{
+    background-image: url(../assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    height: 300px;
+    color: white;
+    padding-top: 100px;
+    font-size: 20px;
+}
+.portfolio{
+    padding:80px;
+}
+.contact us{
+    background-image: url(../assets/backgrounds/c_image.jpg);
+}
