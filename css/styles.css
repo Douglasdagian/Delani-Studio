@@ -4,8 +4,10 @@ body{
 #landing{
     background-image: url(../assets/backgrounds/h_img.jpg);
     background-size: cover;
+    background-repeat:no-repeat;
     height: 400px;
     text-align: center;
+    color: white;
     padding-top: 200px;
 }
 h1 p{
@@ -20,13 +22,15 @@ h1 p{
 .services{
     background-image: url(../assets/backgrounds/s_image.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     height: 300px;
+    text-align: center;
     color: white;
     padding-top: 100px;
     font-size: 20px;
 }
 .portfolio{
-    /* text-align: center; */
+    text-align: center;
     padding: 50px;
     margin: 2px;
     justify-content: space-between;
@@ -34,6 +38,7 @@ h1 p{
 .contact-us{
     background-image: url(../assets/backgrounds/c_image.jpg);
     text-align: center;
+    height: 700px;
 }
 .container{
     margin: 20px;
