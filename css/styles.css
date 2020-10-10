@@ -32,13 +32,14 @@ h1 p{
 .portfolio{
     text-align: center;
     padding: 50px;
-    margin: 2px;
+    margin-left: 20px;
     justify-content: space-between;
 }
 .contact-us{
     background-image: url(../assets/backgrounds/c_image.jpg);
     text-align: center;
     height: 700px;
+    justify-content: space-around;
 }
 .container{
     margin: 20px;
@@ -46,4 +47,22 @@ h1 p{
     align-items: center;
     padding-top: 2px;
     box-sizing: border-box;
+}
+.form-inline{
+    text-align: center;
+    padding: 150px;
+}
+.moringa{
+    float: left;
+}
+.form::placeholder{
+    color: white;
+}
+.footer{
+    padding-top:5px;
+    justify-content:space-around;
+}
+.delan{
+    text-size-adjust: 2px;
+    margin: 20px;
 }
