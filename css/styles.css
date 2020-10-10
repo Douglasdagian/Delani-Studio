@@ -38,7 +38,7 @@ h1 p{
 .contact-us{
     background-image: url(../assets/backgrounds/c_image.jpg);
     text-align: center;
-    height: 700px;
+    height: 680px;
     justify-content: space-around;
 }
 .container{
@@ -65,4 +65,24 @@ h1 p{
 .delan{
     text-size-adjust: 2px;
     margin: 20px;
+}
+#text{
+    resize: vertical;
+    max-height: 300px;
+}
+#hen{
+    width: 36%;
+    height: 150px;
+    background: transparent;
+    color: white;
+}
+#doug{
+    background: transparent;
+    color: white;
+}
+#hen::placeholder{
+    color: white;
+}
+#doug::placeholder{
+    color: white;
 }
