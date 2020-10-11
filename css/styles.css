@@ -35,7 +35,7 @@ h1 p{
     list-style: none;
 }
 .portfolio{
-    /* text-align: center; */
+    text-align: center;
     padding: 40px;
     margin-left: 20px;
     justify-content: space-between;
@@ -53,9 +53,11 @@ h1 p{
     padding-top: 2px;
     box-sizing: border-box;
 }
-.form-inline{
+.form{
     text-align: center;
-    padding: 150px;
+    padding: 10px;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 .moringa{
     float: left;
@@ -74,6 +76,7 @@ h1 p{
 #text{
     resize: vertical;
     max-height: 300px;
+    outline: none;
 }
 #hen{
     width: 36%;
@@ -85,20 +88,12 @@ h1 p{
     background: transparent;
     color: white;
 }
+.show{
+    display: none;
+}
 #hen::placeholder{
     color: white;
 }
 #doug::placeholder{
     color: white;
 }
-/* designs:hover {
-    background: url('img_navsprites_hover.gif') 0 -45px;
-  }
-  
-develpment:hover {
-    background: url('img_navsprites_hover.gif') -47px -45px;
-  }
-  
-product management:hover {
-    background: url('img_navsprites_hover.gif') -91px -45px;
-  } */
