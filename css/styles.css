@@ -1,5 +1,8 @@
 body{
     text-align: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
 }
 #landing{
     background-image: url(../assets/backgrounds/h_img.jpg);
@@ -96,4 +99,15 @@ h1 p{
 }
 #doug::placeholder{
     color: white;
+}
+.work4:hover{
+    position: relaive;
+    width: 100%;
+    transition: 0.5s ease;
+    background: -o-linear-gradient(180deg,#f00,#000);
+    mix-blend-mode: multiply;
+    /* display: flex; */
+    /* z-index: 1; */
+    transform: scale(1.25);
+    /* box-shadow: 0 25px 40px rgba(0,0,0,.5); */
 }
