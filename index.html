@@ -43,7 +43,7 @@
 
       <div class="row">
         <div class="col-md-4 image">
-          <img src="./assets/services_icons/design_icon.png" style="cover" id="show">
+          <img src="./assets/services_icons/design_icon.png" id="show">
           <h4>DESIGNS</h4>
           <p class="show">Our design practice offers a full range of services including brand strategy, interaction and
             visual design
@@ -55,14 +55,14 @@
 
 
         <div class="col-md-4 image">
-          <img src="./assets/services_icons/dev_icon.png" style="cover" id="show">
+          <img src="./assets/services_icons/dev_icon.png" id="show">
           <h4>DEVELOPMENT</h4>
           <p class="show">All engineers are fluent in the latest enterprise, mobile and web development technologies.
             They collaborate with your team to write, and improve code on a daily basis, using proven practices such as
             test-driven development and pair programming.</p>
         </div>
         <div class="col-md-4 image">
-          <img src="./assets/services_icons/product_icon.png" style="cover" id="show">
+          <img src="./assets/services_icons/product_icon.png" id="show">
           <h4>PRODUCT MANAGEMENT</h4>
           <P class="show">Planning and development is iterative. Because we are constantly coding and testing, the
             products we build
@@ -116,14 +116,13 @@
           <div class="col-sm-12">
             <div class="contact-us">
               <h6>CONTACT US</h6>
-              <div class="form">
-                <input type="text" name="name" id="doug" placeholder="Name...">
-                <input type="text" name="email" id="doug" placeholder="E-mail..."><br>
-              </div>
-              <div class="text">
-                <textarea name="message" id="hen" placeholder="write your message"></textarea> <br>
-                <input class="submit" type="submit" value="Submit">
-              </div>
+              <form action="http://eepurl.com/hfO1af"> 
+                <input type="text" name="name" id="name" placeholder="Name..." required>
+                <input type="text" name="email" id="email" placeholder="E-mail..." required><br>
+                <div class="text">
+                  <textarea name="message" id="hen" placeholder="write your message" required></textarea> <br>
+                  <input class="submit" type="submit" value="Submit"></div>
+              </form>
             </div>
           </div>
         </div>
@@ -150,6 +149,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js"
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
-</body>
+ </body>
 
 </html>
