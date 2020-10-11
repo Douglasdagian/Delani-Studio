@@ -29,9 +29,14 @@ h1 p{
     padding-top: 100px;
     font-size: 20px;
 }
+.what-we-do{
+    justify-content: space-between;
+    display: block;
+    list-style: none;
+}
 .portfolio{
-    text-align: center;
-    padding: 50px;
+    /* text-align: center; */
+    padding: 40px;
     margin-left: 20px;
     justify-content: space-between;
 }
@@ -86,3 +91,14 @@ h1 p{
 #doug::placeholder{
     color: white;
 }
+/* designs:hover {
+    background: url('img_navsprites_hover.gif') 0 -45px;
+  }
+  
+develpment:hover {
+    background: url('img_navsprites_hover.gif') -47px -45px;
+  }
+  
+product management:hover {
+    background: url('img_navsprites_hover.gif') -91px -45px;
+  } */
