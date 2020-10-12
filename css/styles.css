@@ -76,10 +76,12 @@ h1 p{
     text-size-adjust: 2px;
     margin: 20px;
 }
-#text{
+.text{
     resize: vertical;
     max-height: 300px;
     outline: none;
+    padding-top: 20px;
+    margin: 3px;
 }
 #hen{
     width: 36%;
