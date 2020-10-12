@@ -14,3 +14,29 @@ $(document).ready(function(){
     }
   });
 });
+$(document).ready(function(){
+  $(".mask").hover(function(){
+    $("#us1").toggle();
+  });
+  $(".none").hover(function(){
+    $("#us2").toggle();
+  });
+  $(".none").hover(function(){
+    $("#us3").toggle();
+  });
+  $(".none").hover(function(){
+    $("#us").toggle();
+  });
+  $(".none").hover(function(){
+    $("#us").toggle();
+  });
+  $(".none").hover(function(){
+    $("#us").toggle();
+  });
+  $(".none").hover(function(){
+    $("#us").toggle();
+  });
+  $(".none").hover(function(){
+    $("#us").toggle();
+  });
+});
