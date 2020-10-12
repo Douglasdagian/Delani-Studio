@@ -4,7 +4,7 @@ $(".image").click(function () {
 });
 
 
-$(document).ready(function(){
+$(document).ready(function(event){
   $("form").submit(function(){
     var name = $("input#name").val();
     var email = $("input#email").val();
@@ -12,5 +12,6 @@ $(document).ready(function(){
     if ($("input#name").val() && $("input#email").val()){
       alert(name + "thank you for your feedback");
     }
+    // event.preventDefault();
   });
 });
