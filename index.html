@@ -7,6 +7,8 @@
   <title>Delani Studio</title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+  
 </head>
 
 <body>
@@ -116,13 +118,16 @@
           <div class="col-sm-12">
             <div class="contact-us">
               <h6>CONTACT US</h6>
-              <form action="http://eepurl.com/hfO1af"> 
+
+              <form action="http://eepurl.com/hfO1af" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
                 <input type="text" name="name" id="name" placeholder="Name..." required>
                 <input type="text" name="email" id="email" placeholder="E-mail..." required><br>
                 <div class="text">
                   <textarea name="message" id="hen" placeholder="write your message" required></textarea> <br>
                   <input class="submit" type="submit" value="Submit"></div>
               </form>
+
             </div>
           </div>
         </div>
@@ -148,7 +153,11 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js"
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+   
+      <script src="/js/script.js"></script>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+    
+
  </body>
 
 </html>
