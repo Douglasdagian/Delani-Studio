@@ -4,7 +4,7 @@ $(".image").click(function () {
 });
 
 
-$(document).ready(function(event){
+$(document).ready(function(){
   $("form").submit(function(){
     var name = $("input#name").val();
     var email = $("input#email").val();
@@ -12,6 +12,32 @@ $(document).ready(function(event){
     if ($("input#name").val() && $("input#email").val()){
       alert(name + "thank you for your feedback");
     }
-    // event.preventDefault();
+  });
+});
+
+$(document).ready(function(){
+  $(".mask1").hover(function(){
+    $("#us1").toggle();
+  });
+  $(".img1").hover(function(){
+    $(".mg1").toggle();
+  });
+  $(".mask3").hover(function(){
+    $("#us3").toggle();
+  });
+  $(".mask4").hover(function(){
+    $("#us4").toggle();
+  });
+  $(".mask5").hover(function(){
+    $("#us5").toggle();
+  });
+  $(".mask6").hover(function(){
+    $("#us6").toggle();
+  });
+  $(".mask7").hover(function(){
+    $("#us7").toggle();
+  });
+  $("#img3").hover(function(){
+    $(".overlay").toggle();
   });
 });
