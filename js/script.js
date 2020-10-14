@@ -19,8 +19,8 @@ $(document).ready(function(){
   $(".mask1").hover(function(){
     $("#us1").toggle();
   });
-  $(".img1").hover(function(){
-    $(".mg1").toggle();
+  $(".mask2").hover(function(){
+    $("#us2").toggle();
   });
   $(".mask3").hover(function(){
     $("#us3").toggle();
@@ -37,7 +37,7 @@ $(document).ready(function(){
   $(".mask7").hover(function(){
     $("#us7").toggle();
   });
-  $("#img3").hover(function(){
-    $(".overlay").toggle();
+  $(".mask8").hover(function(){
+    $("#us8").toggle();
   });
 });
